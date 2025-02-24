@@ -29,7 +29,7 @@ If we have a page like the one shown below, we can parse it using the `server-st
 <img src="https://raw.githubusercontent.com/kolevvelyan/server-status-parser/main/images/page_example.png" alt="apache server status page example" width="600">
 
 ### Output from the Parser
-> ```json
+> ```
 > {
 >     'heading': 'Apache Server Status for google.com (via 127.0.0.1)',
 >     'endpoint': 'google.com',
