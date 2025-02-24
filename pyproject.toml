@@ -7,7 +7,9 @@ name = "server-status-parser"
 version = "0.1.0"
 description = "A parser for the /server-status page of Apache"
 authors = [{name = "Velyan Kolev", email = "kolev.velyan@gmail.com"}]
+license = {file = "LICENSE"}
 dependencies = ["beautifulsoup4", "pandas"]
+requires-python = ">=3.6"
 
 [tool.setuptools]
 packages = ["server_status_parser"]
