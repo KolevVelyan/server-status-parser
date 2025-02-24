@@ -26,7 +26,7 @@ print(parsed_content)
 ### Example Page
 If we have a page like the one shown below, we can parse it using the `server-status-parser` package. The output is shown underneath.
 
-<img src="./images/page_example.png" alt="apache server status page example" width="600">
+<img src="https://raw.githubusercontent.com/kolevvelyan/server-status-parser/main/images/page_example.png" alt="apache server status page example" width="600">
 
 ### Output from the Parser
 > ```json
@@ -69,29 +69,29 @@ Some contents of the page are not currently parsed as we do not consider them im
 
 This section appears near the end of the page and shows the status of the TLS cache.
 
-<img src="./images/tls_cache.png" alt="tls cache section example" width="400">
+<img src="https://raw.githubusercontent.com/kolevvelyan/server-status-parser/main/images/tls_cache.png" alt="tls cache section example" width="400">
 
 ### `mod_fcgid`
 
 This section appears below the workers table when `mod_fcgid` is enabled.
 
-<img src="./images/mod_fcgid.png" alt="mod_fcgid section example" width="300">
+<img src="https://raw.githubusercontent.com/kolevvelyan/server-status-parser/main/images/mod_fcgid.png" alt="mod_fcgid section example" width="300">
 
 
 ### `GnuTLS`
 
 This section appears below the workers table when `mod_gnutls` is enabled.
 
-<img src="./images/gnu_tls.png" alt="gnu tls section example" width="400">
+<img src="https://raw.githubusercontent.com/kolevvelyan/server-status-parser/main/images/gnu_tls.png" alt="gnu tls section example" width="400">
 
 ### Slot Table
 
 This table appears above the scoreboard.
 
-<img src="./images/slot_table.png" alt="slot table example" width="500">
+<img src="https://raw.githubusercontent.com/kolevvelyan/server-status-parser/main/images/slot_table.png" alt="slot table example" width="500">
 
 ### Plaintext Workers Table
 
 Very rarely we have found that the workers table is in plaintext format in stead of being properly formatted as an HTML table. This is not parsed.
 
-<img src="./images/plaintext_workers_table.png" alt="plaintext workers table example" width="600">
+<img src="https://raw.githubusercontent.com/kolevvelyan/server-status-parser/main/images/plaintext_workers_table.png" alt="plaintext workers table example" width="600">
