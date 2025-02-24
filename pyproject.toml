@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "server-status-parser"
+version = "0.1.0"
+description = "A parser for the /server-status page of Apache"
+authors = [{name = "Velyan Kolev", email = "kolev.velyan@gmail.com"}]
+dependencies = ["beautifulsoup4", "pandas"]
+
+[tool.setuptools]
+packages = ["server_status_parser"]
